@@ -15,4 +15,4 @@ This web component uses [Polymer](http://www.polymer-project.org).
 ## Example
 `<code-highlighter>function() { console.log('Hello World'); } </code-highlighter>``
 
-## [Demo](http://dev-priya.github.io/polymer-code-highlighter/demo.html)
+## [Demo](https://dev-priya.github.io/polymer-code-highlighter/components/polymer-code-highlighter/demo.html)

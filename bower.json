@@ -1,0 +1,31 @@
+{
+  "name": "polymer-code-highlighter",
+  "version": "0.1.0",
+  "authors": [
+    "Dev Priya <devpriya00@gmail.com>"
+  ],
+  "description": "Polymer code highlighter based on google-code-prettify",
+  "license": "MIT",
+  "keywords": [
+    "code",
+    "google-code-prettify",
+    "highlighter",
+    "polymer",
+    "pretty-print",
+    "web-component",
+    "web-components"
+  ],
+  "main": "code-highlighter.html",
+  "homepage": "https://github.com/dev-priya/polymer-code-highlighter",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.2",
+    "google-code-prettify": "~1.0.3"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.5"
+  }
+}

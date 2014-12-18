@@ -1,0 +1,7 @@
+{
+  "name": "polymer-code-highlighter#gh-pages",
+  "private": true,
+  "dependencies": {
+    "polymer-code-highlighter": "dev-priya/polymer-code-highlighter#master"
+  }
+}

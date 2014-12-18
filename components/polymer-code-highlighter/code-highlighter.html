@@ -1,0 +1,49 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Highlight and pretty-print code using google-code-prettify
+
+##### Example
+
+<code-highlighter>
+  object HelloWorld {
+    def main(args: Array[String]) {
+      println("Hello, world!")
+    }
+  }
+</code-highlighter>
+
+@element code-highlighter
+@blurb Highlight and pretty-print code using google-code-prettify
+@status beta
+@homepage http://dev-priya.github.io/polymer-code-highlighter
+-->
+
+<polymer-element name="code-highlighter">
+
+  <template>
+    <link rel="stylesheet" href="../google-code-prettify/bin/prettify.min.css" />
+    <style>
+      #code {
+        background-color: #eee;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 10px 20px 0px 20px;
+      }
+    </style>
+    <pre id="code" class="prettyprint linenums">
+      <content></content>
+    </pre>
+  </template>
+
+  <script src="../google-code-prettify/bin/prettify.min.js"></script>
+  
+  <script>
+    Polymer({
+      ready: function() {
+        this.$.code.innerHTML = prettyPrintOne(this.innerHTML);
+      }
+    });
+  </script>
+
+</polymer-element>    

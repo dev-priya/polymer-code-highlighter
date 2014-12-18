@@ -13,6 +13,6 @@ This web component uses [Polymer](http://www.polymer-project.org).
 4. Use `<code-highlighter>YOUR_CODE</code-highlighter>` element
 
 ## Example
-`<code-highlighter>function() { console.log('Hello World'); } </code-highlighter>``
+`<code-highlighter>function() { console.log('Hello World'); } </code-highlighter>`
 
 ## [Demo](https://dev-priya.github.io/polymer-code-highlighter/components/polymer-code-highlighter/demo.html)
